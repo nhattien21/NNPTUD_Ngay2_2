@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý Post (Soft Delete)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Thêm Post Mới</h2>
+        <div class="form-group">
+            <input type="text" id="title" placeholder="Nhập tiêu đề (Title)">
+            <input type="number" id="views" placeholder="Nhập lượt xem (Views)">
+            <button onclick="createPost()">Thêm mới</button>
+        </div>
+
+        <hr>
+
+        <h2>Danh sách Post</h2>
+        <ul id="post-list">
+            </ul>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
